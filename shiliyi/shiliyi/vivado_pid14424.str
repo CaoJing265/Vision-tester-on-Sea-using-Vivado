@@ -1,0 +1,284 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 14424
+License: Customer
+
+Current time: 	Mon Jul 27 14:39:40 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 19 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	F:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	lenovo
+User home directory: C:/Users/lenovo
+User working directory: F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Xilinx/Vivado
+HDI_APPROOT: F:/Xilinx/Vivado/2018.2
+RDI_DATADIR: F:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: F:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	F:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo/vivado.log
+Vivado journal file location: 	F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo/vivado.jou
+Engine tmp dir: 	F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo/.Xil/Vivado-14424-DESKTOP-NJ34O24
+
+Xilinx Environment Variables
+----------------------------
+XILINX: F:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: F:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_FOR_ALTIUM_OVERRIDE:  
+XILINX_PLANAHEAD: F:/Xilinx/Vivado/2018.2
+XILINX_SDK: F:/Xilinx/SDK/2018.2
+XILINX_VIVADO: F:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: F:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	209 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 568 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+58188kb) [00:00:12]
+// [Engine Memory]: 481 MB (+352680kb) [00:00:12]
+// Opening Vivado Project: F:\Summer_xilinx\all\HDMI_Demo\HDMI_Demo\HDMI_Demo.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo/HDMI_Demo.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 548 MB (+44881kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 594 MB. GUI used memory: 32 MB. Current time: 7/27/20 2:39:42 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 609 MB (+35497kb) [00:00:19]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 654 MB (+15398kb) [00:00:22]
+// [GUI Memory]: 64 MB (+3044kb) [00:00:24]
+// [GUI Memory]: 68 MB (+1380kb) [00:00:24]
+// [Engine Memory]: 689 MB (+2168kb) [00:00:24]
+// [GUI Memory]: 73 MB (+1817kb) [00:00:25]
+// [Engine Memory]: 728 MB (+4578kb) [00:00:25]
+// [GUI Memory]: 80 MB (+2911kb) [00:00:27]
+// [GUI Memory]: 85 MB (+980kb) [00:00:28]
+// Tcl Message: open_project F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo/HDMI_Demo.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/SEAEnglish/example2/HDMI_Demo/HDMI_Demo/HDMI_Demo' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2018.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 977.117 ; gain = 235.363 
+// Project name: HDMI_Demo; location: F:/Summer_xilinx/all/HDMI_Demo/HDMI_Demo; part: xc7s25ftgb196-1
+// [GUI Memory]: 90 MB (+528kb) [00:00:32]
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Elaborate Design"); // A (ck)
+// [Engine Memory]: 786 MB (+23219kb) [00:00:51]
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run ce_rom_synth_1 
+// TclEventType: RUN_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 786 MB. GUI used memory: 60 MB. Current time: 7/27/20 2:40:17 PM CST
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs ce_rom_synth_1 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ce_rom'... 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file  
+// Tcl Message: ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  
+// Tcl Message: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  
+// 'dP' command handler elapsed time: 6 seconds
+// S (ck): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bx (ck)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 428ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 97 MB (+3170kb) [00:01:08]
+// Elapsed time: 14 seconds
+dismissDialog("Critical Messages"); // S (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// Tcl Message: ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file  
+// Tcl Message: ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors. 
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:   
+// aP (ck): Launch Run Critical Messages: addNotify
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Ipptcl 7-519] NULL COE Data pointer: Unable to open the file", 0); // b (D, aP)
+// HMemoryUtils.trashcanNow. Engine heap size: 806 MB. GUI used memory: 59 MB. Current time: 7/27/20 2:40:47 PM CST
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-167] Failed to deliver one or more file(s).", 1); // b (D, aP)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:", 2); // b (D, aP)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:", 3); // b (D, aP)
+// Elapsed time: 52 seconds
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:", 2); // b (D, aP)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-167] Failed to deliver one or more file(s).", 1); // b (D, aP)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Ipptcl 7-519] NULL COE Data pointer: Unable to open the file", 0); // b (D, aP)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aP)
+// 'k' command handler elapsed time: 77 seconds
+dismissDialog("Launch Run Critical Messages"); // aP (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), u_uart : BlueTooth_0 (BlueTooth_0.v)]", 6); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), u_uart : BlueTooth_0 (BlueTooth_0.v), inst : uart_top (uart_top.v)]", 7); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v)]", 12); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), Driver_HDMI0 : Driver_HDMI (Driver_HDMI.v)]", 14); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), wendu : wendu (wendu.v)]", 67); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), wendu : wendu (wendu.v), U3 : smg_top (smg_top.v)]", 70); // B (D, ck)
+// PAPropertyPanels.initPanels (you_rom.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), Driver_HDMI0 : Driver_HDMI (Driver_HDMI.v), you : you_rom (you_rom.xci)]", 30, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), Driver_HDMI0 : Driver_HDMI (Driver_HDMI.v), you : you_rom (you_rom.xci)]", 30, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ck):  Re-customize IP : addNotify
+// Tcl Message: INFO: [Device 21-403] Loading part xc7s25ftgb196-1 
+// [Engine Memory]: 869 MB (+45077kb) [00:02:47]
+// [Engine Memory]: 993 MB (+84695kb) [00:02:53]
+// r (ck): Re-customize IP: addNotify
+// [GUI Memory]: 104 MB (+2436kb) [00:02:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 993 MB. GUI used memory: 63 MB. Current time: 7/27/20 2:42:19 PM CST
+dismissDialog("Re-customize IP"); // O (ck)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aY (C, r)
+// Elapsed time: 54 seconds
+dismissDialog("Re-customize IP"); // r (ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 13, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), rgb2dvi : rgb2dvi_0 (rgb2dvi_0.xci)]", 13, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), Driver_HDMI0 : Driver_HDMI (Driver_HDMI.v), wan2 : wan2 (wan2.xci)]", 34); // B (D, ck)
+// A (ck): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ce_rom'... 
+// Tcl Message: ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file  
+// Tcl Message: ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors. 
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:   
+// aP (ck): Launch Run Critical Messages: addNotify
+// Elapsed time: 19 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (aP)
+// 'k' command handler elapsed time: 20 seconds
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // aP (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4146] Open Elaborated Design failed due to the following error:. ERROR: [Common 17-69] Command failed: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . . . ]", 3, false); // ah (O, ck)
+// [GUI Memory]: 110 MB (+522kb) [00:04:53]
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-167] Failed to deliver one or more file(s).. ]", 6, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 7, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 8, true); // ah (O, ck) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 8); // ah (O, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 7); // ah (O, ck)
+// Elapsed time: 15 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 74); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), Driver_HDMI0 : Driver_HDMI (Driver_HDMI.v), ce : ce_rom (ce_rom.xci)]", 16, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smg (smg.v), U7 : HDMI_Demo (HDMI_Demo.v), Driver_HDMI0 : Driver_HDMI (Driver_HDMI.v), ce : ce_rom (ce_rom.xci)]", 16, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // aY (C, r)
+// Elapsed time: 89 seconds
+dismissDialog("Re-customize IP"); // r (ck)
+// Elapsed time: 22 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4146] Open Elaborated Design failed due to the following error:. ERROR: [Common 17-69] Command failed: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . . . ]", 3, false); // ah (O, ck)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// Tcl Message: ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file  
+// Tcl Message: ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors. 
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:  
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs:   
+// aP (ck): Launch Run Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (aP)
+// 'k' command handler elapsed time: 5 seconds
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // aP (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4146] Open Elaborated Design failed due to the following error:. ERROR: [Common 17-69] Command failed: ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . . . ]", 3, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 8, true); // ah (O, ck) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 8); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . , [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 9, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . , [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 10, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . , [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 11, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-98] Generation of the IP CORE failed.. Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 8, true); // ah (O, ck) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ce_rom'. Failed to generate 'Vivado VHDL Synthesis' outputs: . ]", 7); // ah (O, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-167] Failed to deliver one or more file(s).. ]", 6); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-167] Failed to deliver one or more file(s).. , [IP_Flow 19-167] Failed to deliver one or more file(s).. ]", 7, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-167] Failed to deliver one or more file(s).. , [IP_Flow 19-167] Failed to deliver one or more file(s).. ]", 7, false, false, false, false, true, false); // ah (O, ck) - Popup Trigger

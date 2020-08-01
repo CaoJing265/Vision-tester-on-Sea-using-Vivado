@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Sep  5 14:13:07 2019
+# Process ID: 7752
+# Current directory: D:/Demo/IP/Clk_Division_IP/Clk_Division/Clk_Division.runs/synth_1
+# Command line: vivado.exe -log Clk_Division.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Clk_Division.tcl
+# Log file: D:/Demo/IP/Clk_Division_IP/Clk_Division/Clk_Division.runs/synth_1/Clk_Division.vds
+# Journal file: D:/Demo/IP/Clk_Division_IP/Clk_Division/Clk_Division.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Clk_Division.tcl -notrace

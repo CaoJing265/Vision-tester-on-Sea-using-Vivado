@@ -1,0 +1,2 @@
+xiao_rom.v,verilog,xil_defaultlib,../../../../HDMI_Demo.srcs/sources_1/ip/xiao_rom/sim/xiao_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

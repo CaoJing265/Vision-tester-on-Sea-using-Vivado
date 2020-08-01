@@ -1,0 +1,2 @@
+l40.v,verilog,xil_defaultlib,../../../../HDMI_Demo.srcs/sources_1/ip/l40/sim/l40.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

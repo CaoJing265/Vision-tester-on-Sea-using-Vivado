@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug  1 09:29:46 2020
+# Process ID: 916
+# Current directory: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l40_synth_1
+# Command line: vivado.exe -log l40.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source l40.tcl
+# Log file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l40_synth_1/l40.vds
+# Journal file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l40_synth_1\vivado.jou
+#-----------------------------------------------------------
+source l40.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP l40, cache-ID = 98eb53c7ffdf648a.
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  1 09:30:00 2020...

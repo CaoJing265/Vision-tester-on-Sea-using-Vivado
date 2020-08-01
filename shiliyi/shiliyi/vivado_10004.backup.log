@@ -1,0 +1,1018 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jul 31 21:24:36 2020
+# Process ID: 10004
+# Current directory: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14256 C:\Users\Qzzzz\Desktop\shiliyi\shiliyi\HDMI_Demo.xpr
+# Log file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/vivado.log
+# Journal file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/Qzzzz/IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Qzzzz/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'r52' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r52' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l51' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l51' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r45' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l42' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l42' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l41' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l41' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wei2' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wei2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'yanl' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'yanl' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'yanr' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'yanr' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cheng2' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'cheng2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wan2' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wan2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'shi2' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'shi2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ce2' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'ce2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'shi_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'shi_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'dan_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'dan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'yan_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'yan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wan_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cheng_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'cheng_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ku_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'ku_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xiao_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'xiao_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'zheng_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'zheng_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'que_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'que_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cuo_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'cuo_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wu_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wu_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'rgb2dvi_0' is locked:
+* IP definition 'rgb2dvi (1.2)' for IP 'rgb2dvi_0' (customized with software release 2018.2) was not found in the IP Catalog.
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'rgb2dvi_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r41' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r41' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'zuo_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'zuo_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'you_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'you_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wei_rom' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wei_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r40' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r40' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l40' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l40' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r42' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r42' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r43' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r43' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l43' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l43' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l44' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r44' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l45' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l46' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r46' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r47' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l47' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r48' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l48' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r49' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l49' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r50' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l50' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r51' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r51' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l52' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l52' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l53' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l53' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r53' is locked:
+* Current project part 'xc7s15cpga196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r53' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:01:03 ; elapsed = 00:00:44 . Memory (MB): peak = 929.754 ; gain = 202.922
+update_compile_order -fileset sources_1
+create_run impl_4 -parent_run synth_3 -flow {Vivado Implementation 2018} -strategy {Vivado Implementation Defaults} -report_strategy {Vivado Implementation Default Reports}
+Run is defaulting to parent run srcset: sources_1
+Run is defaulting to parent run constrset: constrs_1
+Run is defaulting to parent run part: xc7s15cpga196-1
+current_run [get_runs impl_4]
+set_property part xc7s15ftgb196-1 [current_project]
+WARNING: [IP_Flow 19-2162] IP 'r52' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r52' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l51' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l51' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r45' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l42' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l42' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l41' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l41' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wei2' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wei2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'yanl' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'yanl' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'yanr' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'yanr' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cheng2' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'cheng2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wan2' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wan2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'shi2' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'shi2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ce2' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'ce2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'shi_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'shi_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'dan_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'dan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'yan_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'yan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wan_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cheng_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'cheng_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ku_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'ku_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'xiao_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'xiao_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'zheng_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'zheng_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'que_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'que_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'cuo_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'cuo_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wu_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wu_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'rgb2dvi_0' is locked:
+* IP definition 'rgb2dvi (1.2)' for IP 'rgb2dvi_0' (customized with software release 2018.2) was not found in the IP Catalog.
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'rgb2dvi_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r41' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r41' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'zuo_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'zuo_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'you_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'you_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'wei_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wei_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r40' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r40' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l40' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l40' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r42' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r42' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r43' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r43' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l43' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l43' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l44' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r44' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l45' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l46' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r46' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r47' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l47' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r48' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l48' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r49' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l49' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r50' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l50' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r51' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r51' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l52' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l52' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'l53' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l53' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'r53' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r53' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'si_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s15cpga196-1' used to customize the IP 'si_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'kai_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s15cpga196-1' used to customize the IP 'kai_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s15cpga196-1' used to customize the IP 'clk_wiz_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+update_ip_catalog
+reset_run dan_rom_synth_1
+reset_run yan_rom_synth_1
+reset_run wan_rom_synth_1
+reset_run cheng_rom_synth_1
+reset_run ku_rom_synth_1
+reset_run xiao_rom_synth_1
+reset_run rgb2dvi_0_synth_1
+reset_run r41_synth_1
+reset_run zuo_rom_synth_1
+reset_run you_rom_synth_1
+reset_run wei_rom_synth_1
+reset_run r40_synth_1
+reset_run l40_synth_1
+reset_run r42_synth_1
+reset_run r43_synth_1
+reset_run l43_synth_1
+reset_run l44_synth_1
+reset_run r44_synth_1
+reset_run l45_synth_1
+reset_run l46_synth_1
+reset_run r46_synth_1
+reset_run r47_synth_1
+reset_run l47_synth_1
+reset_run r48_synth_1
+reset_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1015.352 ; gain = 0.000
+reset_run l48_synth_1
+reset_run r49_synth_1
+reset_run l49_synth_1
+reset_run r50_synth_1
+reset_run l50_synth_1
+reset_run r51_synth_1
+reset_run l52_synth_1
+reset_run l53_synth_1
+reset_run r53_synth_1
+reset_run si_rom_synth_1
+reset_run kai_rom_synth_1
+reset_run clk_wiz_0_synth_1
+reset_run synth_3
+launch_runs synth_3 -jobs 2
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r52, cache-ID = 6dbe804cadb6c088; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l51, cache-ID = ceef19eefc179e59; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r45, cache-ID = 6c683d4c09525b9a; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l42, cache-ID = 3bbaca65ae7e3a5b; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l41, cache-ID = 683befe303fad0ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wei2, cache-ID = a137eeada92d06cd; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanl, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanr, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cheng2, cache-ID = 5f11e64ad2bd1d6e; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wan2, cache-ID = ec04d0cba8c8bad3; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP shi2, cache-ID = 4862c75057d27408; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ce2, cache-ID = 190819469de94ba4; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run dan_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run yan_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run wan_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run cheng_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run ku_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run xiao_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run rgb2dvi_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r41_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run zuo_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run you_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run wei_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r40_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l40_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r42_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r43_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l43_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l44_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r44_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l45_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l46_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r46_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r47_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l47_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r48_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l48_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r49_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l49_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r50_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l50_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r51_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l52_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run l53_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run r53_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run si_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run kai_rom_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run clk_wiz_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/dan_rom/dan_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yan_rom/yan_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan_rom/wan_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng_rom/cheng_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ku_rom/ku_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/xiao_rom/xiao_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r41/r41.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/zuo_rom/zuo_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/you_rom/you_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei_rom/wei_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r40/r40.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l40/l40.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r42/r42.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r43/r43.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l43/l43.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l44/l44.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r44/r44.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l45/l45.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l46/l46.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r46/r46.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r47/r47.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l47/l47.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r48/r48.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l48/l48.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r49/r49.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l49/l49.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r50/r50.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l50/l50.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r51/r51.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l52/l52.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l53/l53.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r53/r53.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/si_rom/si_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/kai_rom/kai_rom.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci
+
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/dan_rom/dan_rom.xci' in run dan_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yan_rom/yan_rom.xci' in run yan_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan_rom/wan_rom.xci' in run wan_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng_rom/cheng_rom.xci' in run cheng_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ku_rom/ku_rom.xci' in run ku_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/xiao_rom/xiao_rom.xci' in run xiao_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci' in run rgb2dvi_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r41/r41.xci' in run r41_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/zuo_rom/zuo_rom.xci' in run zuo_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/you_rom/you_rom.xci' in run you_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei_rom/wei_rom.xci' in run wei_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r40/r40.xci' in run r40_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l40/l40.xci' in run l40_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r42/r42.xci' in run r42_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r43/r43.xci' in run r43_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l43/l43.xci' in run l43_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l44/l44.xci' in run l44_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r44/r44.xci' in run r44_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l45/l45.xci' in run l45_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l46/l46.xci' in run l46_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r46/r46.xci' in run r46_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r47/r47.xci' in run r47_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l47/l47.xci' in run l47_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r48/r48.xci' in run r48_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l48/l48.xci' in run l48_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r49/r49.xci' in run r49_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l49/l49.xci' in run l49_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r50/r50.xci' in run r50_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l50/l50.xci' in run l50_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r51/r51.xci' in run r51_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l52/l52.xci' in run l52_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l53/l53.xci' in run l53_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r53/r53.xci' in run r53_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/si_rom/si_rom.xci' in run si_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/kai_rom/kai_rom.xci' in run kai_rom_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' in run clk_wiz_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Fri Jul 31 21:31:22 2020] Launched dan_rom_synth_1, yan_rom_synth_1, wan_rom_synth_1, cheng_rom_synth_1, ku_rom_synth_1, xiao_rom_synth_1, rgb2dvi_0_synth_1, r41_synth_1, zuo_rom_synth_1, you_rom_synth_1, wei_rom_synth_1, r40_synth_1, l40_synth_1, r42_synth_1, r43_synth_1, l43_synth_1, l44_synth_1, r44_synth_1, l45_synth_1, l46_synth_1, r46_synth_1, r47_synth_1, l47_synth_1, r48_synth_1, l48_synth_1, r49_synth_1, l49_synth_1, r50_synth_1, l50_synth_1, r51_synth_1, l52_synth_1, l53_synth_1, r53_synth_1, si_rom_synth_1, kai_rom_synth_1, clk_wiz_0_synth_1...
+Run output will be captured here:
+dan_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/dan_rom_synth_1/runme.log
+yan_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/yan_rom_synth_1/runme.log
+wan_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wan_rom_synth_1/runme.log
+cheng_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/cheng_rom_synth_1/runme.log
+ku_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/ku_rom_synth_1/runme.log
+xiao_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/xiao_rom_synth_1/runme.log
+rgb2dvi_0_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/rgb2dvi_0_synth_1/runme.log
+r41_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r41_synth_1/runme.log
+zuo_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/zuo_rom_synth_1/runme.log
+you_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/you_rom_synth_1/runme.log
+wei_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wei_rom_synth_1/runme.log
+r40_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r40_synth_1/runme.log
+l40_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l40_synth_1/runme.log
+r42_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r42_synth_1/runme.log
+r43_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r43_synth_1/runme.log
+l43_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l43_synth_1/runme.log
+l44_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l44_synth_1/runme.log
+r44_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r44_synth_1/runme.log
+l45_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l45_synth_1/runme.log
+l46_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l46_synth_1/runme.log
+r46_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r46_synth_1/runme.log
+r47_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r47_synth_1/runme.log
+l47_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l47_synth_1/runme.log
+r48_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r48_synth_1/runme.log
+l48_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l48_synth_1/runme.log
+r49_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r49_synth_1/runme.log
+l49_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l49_synth_1/runme.log
+r50_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r50_synth_1/runme.log
+l50_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l50_synth_1/runme.log
+r51_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r51_synth_1/runme.log
+l52_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l52_synth_1/runme.log
+l53_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l53_synth_1/runme.log
+r53_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r53_synth_1/runme.log
+si_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/si_rom_synth_1/runme.log
+kai_rom_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/kai_rom_synth_1/runme.log
+clk_wiz_0_synth_1: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/clk_wiz_0_synth_1/runme.log
+[Fri Jul 31 21:31:30 2020] Launched synth_3...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/runme.log
+launch_runs: Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1021.559 ; gain = 6.207
+launch_runs impl_4 -jobs 2
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r52, cache-ID = 6dbe804cadb6c088; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l51, cache-ID = ceef19eefc179e59; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r45, cache-ID = 6c683d4c09525b9a; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l42, cache-ID = 3bbaca65ae7e3a5b; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l41, cache-ID = 683befe303fad0ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wei2, cache-ID = a137eeada92d06cd; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanl, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanr, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cheng2, cache-ID = 5f11e64ad2bd1d6e; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wan2, cache-ID = ec04d0cba8c8bad3; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP shi2, cache-ID = 4862c75057d27408; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ce2, cache-ID = 190819469de94ba4; cache size = 11.225 MB.
+config_ip_cache: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1021.691 ; gain = 0.000
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Fri Jul 31 21:39:54 2020] Launched impl_4...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_4/runme.log
+launch_runs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 1021.691 ; gain = 0.000
+reset_run synth_3
+launch_runs impl_4 -to_step write_bitstream -jobs 2
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r52, cache-ID = 6dbe804cadb6c088; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l51, cache-ID = ceef19eefc179e59; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r45, cache-ID = 6c683d4c09525b9a; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l42, cache-ID = 3bbaca65ae7e3a5b; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l41, cache-ID = 683befe303fad0ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wei2, cache-ID = a137eeada92d06cd; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanl, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanr, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cheng2, cache-ID = 5f11e64ad2bd1d6e; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wan2, cache-ID = ec04d0cba8c8bad3; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP shi2, cache-ID = 4862c75057d27408; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ce2, cache-ID = 190819469de94ba4; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci
+
+[Fri Jul 31 21:45:04 2020] Launched synth_3...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/runme.log
+[Fri Jul 31 21:45:05 2020] Launched impl_4...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_4/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1021.691 ; gain = 0.000
+reset_run synth_3
+launch_runs synth_3 -jobs 2
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r52, cache-ID = 6dbe804cadb6c088; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l51, cache-ID = ceef19eefc179e59; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r45, cache-ID = 6c683d4c09525b9a; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l42, cache-ID = 3bbaca65ae7e3a5b; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l41, cache-ID = 683befe303fad0ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wei2, cache-ID = a137eeada92d06cd; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanl, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanr, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cheng2, cache-ID = 5f11e64ad2bd1d6e; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wan2, cache-ID = ec04d0cba8c8bad3; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP shi2, cache-ID = 4862c75057d27408; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ce2, cache-ID = 190819469de94ba4; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci
+
+[Fri Jul 31 21:55:32 2020] Launched synth_3...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1025.594 ; gain = 3.035
+launch_runs impl_4 -jobs 2
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r52, cache-ID = 6dbe804cadb6c088; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l51, cache-ID = ceef19eefc179e59; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r45, cache-ID = 6c683d4c09525b9a; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l42, cache-ID = 3bbaca65ae7e3a5b; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l41, cache-ID = 683befe303fad0ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wei2, cache-ID = a137eeada92d06cd; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanl, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanr, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cheng2, cache-ID = 5f11e64ad2bd1d6e; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wan2, cache-ID = ec04d0cba8c8bad3; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP shi2, cache-ID = 4862c75057d27408; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ce2, cache-ID = 190819469de94ba4; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Fri Jul 31 22:03:43 2020] Launched impl_4...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_4/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1026.094 ; gain = 0.156
+reset_run synth_3
+launch_runs impl_4 -to_step write_bitstream -jobs 2
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r52, cache-ID = 6dbe804cadb6c088; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l51, cache-ID = ceef19eefc179e59; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP r45, cache-ID = 6c683d4c09525b9a; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l42, cache-ID = 3bbaca65ae7e3a5b; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP l41, cache-ID = 683befe303fad0ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wei2, cache-ID = a137eeada92d06cd; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanl, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP yanr, cache-ID = f72095dbe45752ab; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cheng2, cache-ID = 5f11e64ad2bd1d6e; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP wan2, cache-ID = ec04d0cba8c8bad3; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP shi2, cache-ID = 4862c75057d27408; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ce2, cache-ID = 190819469de94ba4; cache size = 11.225 MB.
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.xci
+
+[Fri Jul 31 22:14:47 2020] Launched synth_3...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/runme.log
+[Fri Jul 31 22:14:47 2020] Launched impl_4...
+Run output will be captured here: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_4/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1028.059 ; gain = 0.965
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 23:48:34 2020...

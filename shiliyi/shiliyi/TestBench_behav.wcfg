@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="271500000001fs"></ZoomEndTime>
+      <Cursor1Time time="34000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="136"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/TestBench/clk_100MHz" type="logic">
+      <obj_property name="ElementShortName">clk_100MHz</obj_property>
+      <obj_property name="ObjectShortName">clk_100MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/test/RGB_HSync" type="logic">
+      <obj_property name="ElementShortName">RGB_HSync</obj_property>
+      <obj_property name="ObjectShortName">RGB_HSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/SS/hs" type="logic">
+      <obj_property name="ElementShortName">hs</obj_property>
+      <obj_property name="ObjectShortName">hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/test/RGB_VSync" type="logic">
+      <obj_property name="ElementShortName">RGB_VSync</obj_property>
+      <obj_property name="ObjectShortName">RGB_VSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/SS/vs" type="logic">
+      <obj_property name="ElementShortName">vs</obj_property>
+      <obj_property name="ObjectShortName">vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/test/RGB_VDE" type="logic">
+      <obj_property name="ElementShortName">RGB_VDE</obj_property>
+      <obj_property name="ObjectShortName">RGB_VDE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/SS/de" type="logic">
+      <obj_property name="ElementShortName">de</obj_property>
+      <obj_property name="ObjectShortName">de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/test/DE_State" type="array">
+      <obj_property name="ElementShortName">DE_State[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_State[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/test/DE_Cnt" type="array">
+      <obj_property name="ElementShortName">DE_Cnt[32:0]</obj_property>
+      <obj_property name="ObjectShortName">DE_Cnt[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

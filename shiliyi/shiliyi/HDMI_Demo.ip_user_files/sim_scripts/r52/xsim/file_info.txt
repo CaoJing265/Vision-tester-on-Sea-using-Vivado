@@ -1,0 +1,2 @@
+r52.v,verilog,xil_defaultlib,../../../../HDMI_Demo.srcs/sources_1/ip/r52/sim/r52.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

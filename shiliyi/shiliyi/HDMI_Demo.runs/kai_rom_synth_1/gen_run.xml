@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="kai_rom_synth_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1596254725">
+  <File Type="PA-TCL" Name="kai_rom.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="kai_rom_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="kai_rom_reports.tcl"/>
+  <File Type="RDS-RDS" Name="kai_rom.vds"/>
+  <File Type="RDS-UTIL" Name="kai_rom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="kai_rom_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="kai_rom.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="kai_rom_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="kai_rom_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/kai_rom">
+    <File Path="$PSRCDIR/sources_1/ip/kai_rom/kai_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="kai_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/kai_rom">
+    <File Path="$PSRCDIR/sources_1/ip/kai_rom/kai_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="kai_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

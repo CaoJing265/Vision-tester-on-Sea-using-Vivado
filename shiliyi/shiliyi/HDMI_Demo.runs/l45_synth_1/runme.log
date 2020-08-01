@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log l45.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source l45.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source l45.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP l45, cache-ID = 6c683d4c09525b9a.
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  1 09:31:19 2020...

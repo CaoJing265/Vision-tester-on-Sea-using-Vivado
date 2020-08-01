@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="you_rom_synth_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1596245124">
+  <File Type="PA-TCL" Name="you_rom.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="you_rom_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="you_rom_reports.tcl"/>
+  <File Type="RDS-RDS" Name="you_rom.vds"/>
+  <File Type="RDS-UTIL" Name="you_rom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="you_rom_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="you_rom.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="you_rom_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="you_rom_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/you_rom">
+    <File Path="$PSRCDIR/sources_1/ip/you_rom/you_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="you_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/you_rom">
+    <File Path="$PSRCDIR/sources_1/ip/you_rom/you_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="you_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

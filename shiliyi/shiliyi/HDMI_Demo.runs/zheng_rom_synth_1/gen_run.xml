@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="zheng_rom_synth_1" LaunchPart="xc7s25ftgb196-1" LaunchTime="1572088791">
+  <File Type="PA-TCL" Name="zheng_rom.tcl"/>
+  <File Type="REPORTS-TCL" Name="zheng_rom_reports.tcl"/>
+  <File Type="RDS-RDS" Name="zheng_rom.vds"/>
+  <File Type="RDS-UTIL" Name="zheng_rom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="zheng_rom_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="zheng_rom.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/zheng_rom">
+    <File Path="$PSRCDIR/sources_1/ip/zheng_rom/zheng_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="zheng_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/zheng_rom">
+    <File Path="$PSRCDIR/sources_1/ip/zheng_rom/zheng_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="zheng_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

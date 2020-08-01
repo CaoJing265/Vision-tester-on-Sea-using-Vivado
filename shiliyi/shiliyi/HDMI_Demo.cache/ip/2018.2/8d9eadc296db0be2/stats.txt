@@ -1,0 +1,4 @@
+NumberHits:3
+Timestamp: Fri Jul 31 08:44:23 UTC 2020
+VLNV: xilinx.com:ip:blk_mem_gen:8.4
+SynthRuntime: 132

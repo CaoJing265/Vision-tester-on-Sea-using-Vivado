@@ -1,0 +1,550 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jul 31 14:34:30 2020
+# Process ID: 3872
+# Current directory: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2
+# Command line: vivado.exe -log smg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source smg.tcl -notrace
+# Log file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg.vdi
+# Journal file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source smg.tcl -notrace
+Command: link_design -top smg -part xc7s25ftgb196-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.dcp' for cell 'U7/rgb2dvi'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ce2/ce2.dcp' for cell 'U7/Driver_HDMI0/ce2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/cheng2/cheng2.dcp' for cell 'U7/Driver_HDMI0/cheng2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/kai_rom/kai_rom.dcp' for cell 'U7/Driver_HDMI0/kai'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ku_rom/ku_rom.dcp' for cell 'U7/Driver_HDMI0/ku'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l40/l40.dcp' for cell 'U7/Driver_HDMI0/l40'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l41/l41.dcp' for cell 'U7/Driver_HDMI0/l41'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l42/l42.dcp' for cell 'U7/Driver_HDMI0/l42'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l43/l43.dcp' for cell 'U7/Driver_HDMI0/l43'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l44/l44.dcp' for cell 'U7/Driver_HDMI0/l44'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l45/l45.dcp' for cell 'U7/Driver_HDMI0/l45'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l46/l46.dcp' for cell 'U7/Driver_HDMI0/l46'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l47/l47.dcp' for cell 'U7/Driver_HDMI0/l47'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l48/l48.dcp' for cell 'U7/Driver_HDMI0/l48'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l49/l49.dcp' for cell 'U7/Driver_HDMI0/l49'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l50/l50.dcp' for cell 'U7/Driver_HDMI0/l50'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l51/l51.dcp' for cell 'U7/Driver_HDMI0/l51'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l52/l52.dcp' for cell 'U7/Driver_HDMI0/l52'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l53/l53.dcp' for cell 'U7/Driver_HDMI0/l53'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r40/r40.dcp' for cell 'U7/Driver_HDMI0/r40'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r41/r41.dcp' for cell 'U7/Driver_HDMI0/r41'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r42/r42.dcp' for cell 'U7/Driver_HDMI0/r42'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r43/r43.dcp' for cell 'U7/Driver_HDMI0/r43'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r44/r44.dcp' for cell 'U7/Driver_HDMI0/r44'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.dcp' for cell 'U7/Driver_HDMI0/r45'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r46/r46.dcp' for cell 'U7/Driver_HDMI0/r46'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r47/r47.dcp' for cell 'U7/Driver_HDMI0/r47'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r48/r48.dcp' for cell 'U7/Driver_HDMI0/r48'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r49/r49.dcp' for cell 'U7/Driver_HDMI0/r49'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r50/r50.dcp' for cell 'U7/Driver_HDMI0/r50'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r51/r51.dcp' for cell 'U7/Driver_HDMI0/r51'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r52/r52.dcp' for cell 'U7/Driver_HDMI0/r52'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r53/r53.dcp' for cell 'U7/Driver_HDMI0/r53'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/shi2/shi2.dcp' for cell 'U7/Driver_HDMI0/shi2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/si_rom/si_rom.dcp' for cell 'U7/Driver_HDMI0/si'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan_rom/wan_rom.dcp' for cell 'U7/Driver_HDMI0/wan'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan2/wan2.dcp' for cell 'U7/Driver_HDMI0/wan2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei_rom/wei_rom.dcp' for cell 'U7/Driver_HDMI0/wei'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wei2/wei2.dcp' for cell 'U7/Driver_HDMI0/wei2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/xiao_rom/xiao_rom.dcp' for cell 'U7/Driver_HDMI0/xiao'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yan_rom/yan_rom.dcp' for cell 'U7/Driver_HDMI0/yan'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanl/yanl.dcp' for cell 'U7/Driver_HDMI0/yanl'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/yanr/yanr.dcp' for cell 'U7/Driver_HDMI0/yanr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/you_rom/you_rom.dcp' for cell 'U7/Driver_HDMI0/you'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/zuo_rom/zuo_rom.dcp' for cell 'U7/Driver_HDMI0/zuo'
+INFO: [Netlist 29-17] Analyzing 154 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7s25ftgb196-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-35] Removing redundant IBUF, clk_10/inst/clkin1_ibufg, from the path connected to top-level port: clk_100MHz 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_10/clk_in1' is not directly connected to top level port. Synthesis is ignored for c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0.edf but preserved for implementation. [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0.edf:297]
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_10/inst'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_10/inst'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_10/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1129.418 ; gain = 465.379
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_10/inst'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'U7/rgb2dvi/U0'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi.xdc] for cell 'U7/rgb2dvi/U0'
+Parsing XDC File [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/system.xdc]
+WARNING: [Vivado 12-584] No ports matched 'DQ'. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/system.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/system.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DQ'. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/system.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/system.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/system.xdc]
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'U7/rgb2dvi/U0'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/src/rgb2dvi_clocks.xdc] for cell 'U7/rgb2dvi/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+55 Infos, 4 Warnings, 2 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1129.551 ; gain = 814.609
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s25'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1129.551 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1412e8758
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.209 . Memory (MB): peak = 1143.055 ; gain = 13.504
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 175556ab4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.306 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 22 load pin(s).
+Phase 2 Constant propagation | Checksum: e7dcc7ff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.424 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 6 cells and removed 33 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 12552b583
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 45 cells
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG U7/rgb2dvi/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG_inst to drive 8 load(s) on clock net U7/rgb2dvi/U0/PixelClkIO
+INFO: [Opt 31-194] Inserted BUFG U7/rgb2dvi/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG_inst to drive 8 load(s) on clock net U7/rgb2dvi/U0/SerialClkIO
+INFO: [Opt 31-194] Inserted BUFG clk_100MHz_IBUF_BUFG_inst to drive 35 load(s) on clock net clk_100MHz_IBUF_BUFG
+INFO: [Opt 31-193] Inserted 3 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 18d51435a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 3 cells of which 3 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 4e41e858
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 4e41e858
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 4e41e858
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 4e41e858
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 4e41e858
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+75 Infos, 4 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file smg_drc_opted.rpt -pb smg_drc_opted.pb -rpx smg_drc_opted.rpx
+Command: report_drc -file smg_drc_opted.rpt -pb smg_drc_opted.pb -rpx smg_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s25'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 27f5a58d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: fadc74de
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1f796ab48
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1f796ab48
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1f796ab48
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1588398df
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 1a0809adf
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 11f1c3bc6
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 11f1c3bc6
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1b865e3e4
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1bee4e187
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1bee4e187
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 20d8f8942
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 14a8cf88c
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 14a8cf88c
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 14a8cf88c
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: f4f4634a
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: f4f4634a
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=5.557. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 6ee10d9d
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 6ee10d9d
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 6ee10d9d
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 6ee10d9d
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 11ca953f
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 11ca953f
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Ending Placer Task | Checksum: 0de61081
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+96 Infos, 4 Warnings, 2 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file smg_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file smg_utilization_placed.rpt -pb smg_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1143.055 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file smg_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1143.055 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s25'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 41e828c ConstDB: 0 ShapeSum: 9c78df5 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 11a95aae9
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1192.457 ; gain = 49.402
+Post Restoration Checksum: NetGraph: d864b19f NumContArr: 4230f94a Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 11a95aae9
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1192.457 ; gain = 49.402
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 11a95aae9
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1198.441 ; gain = 55.387
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 11a95aae9
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1198.441 ; gain = 55.387
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 25bdc8a7a
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1202.867 ; gain = 59.813
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.473  | TNS=0.000  | WHS=-0.016 | THS=-0.182 |
+
+Phase 2 Router Initialization | Checksum: 2327d3e59
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1d71b6c8d
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 62
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.447  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1cd0e3944
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1202.867 ; gain = 59.813
+Phase 4 Rip-up And Reroute | Checksum: 1cd0e3944
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1f303a612
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.540  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1f303a612
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1f303a612
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+Phase 5 Delay and Skew Optimization | Checksum: 1f303a612
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1747856ca
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.540  | TNS=0.000  | WHS=0.247  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: fad1b98e
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+Phase 6 Post Hold Fix | Checksum: fad1b98e
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.25083 %
+  Global Horizontal Routing Utilization  = 0.332817 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 11bab717b
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 11bab717b
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 124df825c
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.540  | TNS=0.000  | WHS=0.247  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 124df825c
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1202.867 ; gain = 59.813
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+114 Infos, 4 Warnings, 2 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 1202.867 ; gain = 59.813
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.328 . Memory (MB): peak = 1208.965 ; gain = 6.098
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file smg_drc_routed.rpt -pb smg_drc_routed.pb -rpx smg_drc_routed.rpx
+Command: report_drc -file smg_drc_routed.rpt -pb smg_drc_routed.pb -rpx smg_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file smg_methodology_drc_routed.rpt -pb smg_methodology_drc_routed.pb -rpx smg_methodology_drc_routed.rpx
+Command: report_methodology -file smg_methodology_drc_routed.rpt -pb smg_methodology_drc_routed.pb -rpx smg_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_2/smg_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file smg_power_routed.rpt -pb smg_power_summary_routed.pb -rpx smg_power_routed.rpx
+Command: report_power -file smg_power_routed.rpt -pb smg_power_summary_routed.pb -rpx smg_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+126 Infos, 4 Warnings, 2 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file smg_route_status.rpt -pb smg_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file smg_timing_summary_routed.rpt -pb smg_timing_summary_routed.pb -rpx smg_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file smg_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file smg_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file smg_bus_skew_routed.rpt -pb smg_bus_skew_routed.pb -rpx smg_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 14:36:16 2020...

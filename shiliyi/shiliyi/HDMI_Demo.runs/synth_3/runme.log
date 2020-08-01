@@ -1,0 +1,1083 @@
+
+*** Running vivado
+    with args -log smg.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source smg.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source smg.tcl -notrace
+Command: synth_design -top smg -part xc7s15ftgb196-1
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan_rom/wan_rom.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ku_rom/ku_rom.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/xiao_rom/xiao_rom.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l44/l44.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r44/r44.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l45/l45.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l46/l46.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r46/r46.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r47/r47.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l47/l47.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r48/r48.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l48/l48.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r49/r49.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l49/l49.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r50/r50.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l50/l50.xci
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Vivado_Tcl 4-393] The 'Implementation' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+INFO: [IP_Flow 19-2162] IP 'r45' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'wan_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'wan_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'ku_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'ku_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'xiao_rom' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'xiao_rom' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'rgb2dvi_0' is locked:
+* IP definition 'rgb2dvi (1.2)' for IP 'rgb2dvi_0' (customized with software release 2018.2) was not found in the IP Catalog.
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'rgb2dvi_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l44' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'r44' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l45' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l46' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'r46' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'r47' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l47' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'r48' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l48' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'r49' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l49' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'r50' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'r50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'l50' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s25ftgb196-1' used to customize the IP 'l50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Current project part 'xc7s15ftgb196-1' and the part 'xc7s15cpga196-1' used to customize the IP 'clk_wiz_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 418.332 ; gain = 93.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'smg' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:2]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/clk_wiz_0_stub.v:5]
+WARNING: [Synth 8-350] instance 'clk_10' of module 'clk_wiz_0' requires 4 connections, but only 2 given [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Result_Data' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Result_Data.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Result_Data.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Result_Data' (2#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Result_Data.v:23]
+INFO: [Synth 8-6157] synthesizing module 'random_number' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/random_number.v:2]
+WARNING: [Synth 8-3936] Found unconnected internal register 'disp_reg' and it is trimmed from '5' to '4' bits. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/random_number.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'random_number' (3#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/random_number.v:2]
+INFO: [Synth 8-6157] synthesizing module 'shili_control' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:1]
+WARNING: [Synth 8-6090] variable 'data' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:94]
+WARNING: [Synth 8-6090] variable 'Direct_Anjian' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:124]
+WARNING: [Synth 8-6090] variable 'Direct_Anjian' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:131]
+WARNING: [Synth 8-6090] variable 'Direct_Anjian' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:138]
+WARNING: [Synth 8-6090] variable 'Stage' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:230]
+INFO: [Synth 8-6155] done synthesizing module 'shili_control' (4#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:1]
+WARNING: [Synth 8-689] width (2) of port connection 'Direct_Ran' does not match port width (1) of module 'shili_control' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:82]
+WARNING: [Synth 8-689] width (3) of port connection 'Stage' does not match port width (4) of module 'shili_control' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:84]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_Demo' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/HDMI_Demo.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rgb2dvi_0' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/rgb2dvi_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rgb2dvi_0' (5#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/rgb2dvi_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Driver_HDMI' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:24]
+	Parameter H_ACTIVE_1280_720 bound to: 16'b0000010100000000 
+	Parameter H_FP_1280_720 bound to: 16'b0000000001101110 
+	Parameter H_SYNC_1280_720 bound to: 16'b0000000000101000 
+	Parameter H_BP_1280_720 bound to: 16'b0000000011011100 
+	Parameter V_ACTIVE_1280_720 bound to: 16'b0000001011010000 
+	Parameter V_FP_1280_720 bound to: 16'b0000000000000101 
+	Parameter V_SYNC_1280_720 bound to: 16'b0000000000000101 
+	Parameter V_BP_1280_720 bound to: 16'b0000000000010100 
+	Parameter H_TOTAL_1280_720 bound to: 16'b0000011001110010 
+	Parameter V_TOTAL_1280_720 bound to: 16'b0000001011101110 
+	Parameter H_ACTIVE_1024_768 bound to: 16'b0000010000000000 
+	Parameter H_FP_1024_768 bound to: 16'b0000000000011000 
+	Parameter H_SYNC_1024_768 bound to: 16'b0000000010001000 
+	Parameter H_BP_1024_768 bound to: 16'b0000000010010100 
+	Parameter V_ACTIVE_1024_768 bound to: 16'b0000001100000000 
+	Parameter V_FP_1024_768 bound to: 16'b0000000000000011 
+	Parameter V_SYNC_1024_768 bound to: 16'b0000000000000110 
+	Parameter V_BP_1024_768 bound to: 16'b0000000000011101 
+	Parameter H_TOTAL_1024_768 bound to: 16'b0000010100110100 
+	Parameter V_TOTAL_1024_768 bound to: 16'b0000001100100110 
+INFO: [Synth 8-6157] synthesizing module 'kai_rom' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/kai_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'kai_rom' (6#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/kai_rom_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'si_rom' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/si_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'si_rom' (7#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/si_rom_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wan_rom' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/wan_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wan_rom' (8#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/wan_rom_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'xiao_rom' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/xiao_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xiao_rom' (9#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/xiao_rom_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 'douta' does not match port width (3) of module 'xiao_rom' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:372]
+INFO: [Synth 8-6157] synthesizing module 'ku_rom' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/ku_rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ku_rom' (10#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/ku_rom_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r44' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r44_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r44' (11#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r44_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l44' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l44_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l44' (12#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l44_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r45' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r45_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r45' (13#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r45_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l45' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l45_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l45' (14#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l45_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r46' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r46_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r46' (15#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r46_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l46' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l46_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l46' (16#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l46_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r47' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r47_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r47' (17#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r47_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l47' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l47_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l47' (18#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l47_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r48' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r48_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r48' (19#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r48_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l48' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l48_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l48' (20#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l48_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r49' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r49_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r49' (21#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r49_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l49' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l49_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l49' (22#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l49_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'r50' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r50_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r50' (23#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/r50_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'l50' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l50_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'l50' (24#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/l50_stub.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:1054]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:1130]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:1269]
+WARNING: [Synth 8-6014] Unused sequential element length2_reg was removed.  [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:1273]
+INFO: [Synth 8-6155] done synthesizing module 'Driver_HDMI' (25#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/Driver_HDMI.v:24]
+WARNING: [Synth 8-3848] Net RGB_In in module/entity HDMI_Demo does not have driver. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/HDMI_Demo.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_Demo' (26#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/HDMI_Demo.v:23]
+INFO: [Synth 8-6157] synthesizing module 'button' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/button.v:8]
+	Parameter s01 bound to: 4'b0000 
+	Parameter s11 bound to: 4'b0001 
+	Parameter s21 bound to: 4'b0010 
+	Parameter s31 bound to: 4'b0100 
+	Parameter s02 bound to: 4'b0000 
+	Parameter s12 bound to: 4'b0001 
+	Parameter s22 bound to: 4'b0010 
+	Parameter s32 bound to: 4'b0100 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/button.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/button.v:97]
+INFO: [Synth 8-6157] synthesizing module 'Clk_Division_0' [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/Clk_Division_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Clk_Division_0' (27#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/.Xil/Vivado-13864-DESKTOP-52TN4RU/realtime/Clk_Division_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'button' (28#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/button.v:8]
+WARNING: [Synth 8-3848] Net blue_key_unknown in module/entity smg does not have driver. [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'smg' (29#1) [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:2]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[23]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[22]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[21]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[20]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[19]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[18]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[17]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[16]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[15]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[14]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[13]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[12]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[11]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[10]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[9]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[8]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[7]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[6]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[5]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[4]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[3]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[2]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[1]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[0]
+WARNING: [Synth 8-3331] design shili_control has unconnected port Direct_Ran
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 475.984 ; gain = 151.180
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin U3:key_unknown to constant 0 [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/smg.v:82]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 475.984 ; gain = 151.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 475.984 ; gain = 151.180
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45/l45_in_context.xdc] for cell 'U7/Driver_HDMI0/r45'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r45/r45/l45_in_context.xdc] for cell 'U7/Driver_HDMI0/r45'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan_rom/wan_rom/wan_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/wan'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/wan_rom/wan_rom/wan_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/wan'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ku_rom/ku_rom/ku_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/ku'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/ku_rom/ku_rom/ku_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/ku'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/xiao_rom/xiao_rom/xiao_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/xiao'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/xiao_rom/xiao_rom/xiao_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/xiao'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc] for cell 'U7/rgb2dvi'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc] for cell 'U7/rgb2dvi'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l44/l44/l44_in_context.xdc] for cell 'U7/Driver_HDMI0/l44'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l44/l44/l44_in_context.xdc] for cell 'U7/Driver_HDMI0/l44'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r44/r44/l44_in_context.xdc] for cell 'U7/Driver_HDMI0/r44'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r44/r44/l44_in_context.xdc] for cell 'U7/Driver_HDMI0/r44'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l45/l45/l45_in_context.xdc] for cell 'U7/Driver_HDMI0/l45'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l45/l45/l45_in_context.xdc] for cell 'U7/Driver_HDMI0/l45'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l46/l46/l46_in_context.xdc] for cell 'U7/Driver_HDMI0/l46'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l46/l46/l46_in_context.xdc] for cell 'U7/Driver_HDMI0/l46'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r46/r46/l46_in_context.xdc] for cell 'U7/Driver_HDMI0/r46'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r46/r46/l46_in_context.xdc] for cell 'U7/Driver_HDMI0/r46'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r47/r47/r47_in_context.xdc] for cell 'U7/Driver_HDMI0/r47'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r47/r47/r47_in_context.xdc] for cell 'U7/Driver_HDMI0/r47'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l47/l47/r47_in_context.xdc] for cell 'U7/Driver_HDMI0/l47'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l47/l47/r47_in_context.xdc] for cell 'U7/Driver_HDMI0/l47'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r48/r48/r48_in_context.xdc] for cell 'U7/Driver_HDMI0/r48'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r48/r48/r48_in_context.xdc] for cell 'U7/Driver_HDMI0/r48'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l48/l48/r48_in_context.xdc] for cell 'U7/Driver_HDMI0/l48'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l48/l48/r48_in_context.xdc] for cell 'U7/Driver_HDMI0/l48'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r49/r49/r49_in_context.xdc] for cell 'U7/Driver_HDMI0/r49'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r49/r49/r49_in_context.xdc] for cell 'U7/Driver_HDMI0/r49'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l49/l49/r49_in_context.xdc] for cell 'U7/Driver_HDMI0/l49'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l49/l49/r49_in_context.xdc] for cell 'U7/Driver_HDMI0/l49'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r50/r50/r50_in_context.xdc] for cell 'U7/Driver_HDMI0/r50'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/r50/r50/r50_in_context.xdc] for cell 'U7/Driver_HDMI0/r50'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l50/l50/r50_in_context.xdc] for cell 'U7/Driver_HDMI0/l50'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/l50/l50/r50_in_context.xdc] for cell 'U7/Driver_HDMI0/l50'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_10'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_10'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/Clk_Division_0/Clk_Division_0/Clk_Division_0_in_context.xdc] for cell 'U4/nolabel_line220'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/Clk_Division_0/Clk_Division_0/Clk_Division_0_in_context.xdc] for cell 'U4/nolabel_line220'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/si_rom/si_rom/si_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/si'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/si_rom/si_rom/si_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/si'
+Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/kai_rom/kai_rom/si_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/kai'
+Finished Parsing XDC File [c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/kai_rom/kai_rom/si_rom_in_context.xdc] for cell 'U7/Driver_HDMI0/kai'
+Parsing XDC File [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/sys.xdc]
+Finished Parsing XDC File [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/sys.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/constrs_1/new/sys.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/smg_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/smg_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 790.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Clk_N. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Clk_N. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Clk_P. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Clk_P. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[0]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[0]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[1]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[1]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[2]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[2]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[0]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[0]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[1]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[1]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[2]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[2]. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100MHz. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100MHz. (constraint file  c:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r45. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/wan. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/ku. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/xiao. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/rgb2dvi. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l44. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r44. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l45. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l46. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r46. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r47. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l47. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r48. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l48. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r49. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l49. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/r50. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/l50. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U4/nolabel_line220. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/si. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U7/Driver_HDMI0/kai. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'Stage_reg' in module 'shili_control'
+INFO: [Synth 8-5545] ROM "clk_10Hz_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_10Hz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "Result" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Result" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Stage" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Direct" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "disp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Stage" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Stage" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk_10Hz_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_10Hz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "Result" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Result" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Stage" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Direct" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "disp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Stage" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Stage" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Stage" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Single_Result" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Direct_Anjian" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Shuang_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Shuang_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Shuang_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Shuang_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "V_FP" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "H_FP" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "H_SYNC" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "H_BP" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "V_SYNC" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "V_BP" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "H_TOTAL" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "V_TOTAL" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Kai_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Kai_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Dan_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Dan_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Shuang_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "R_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "R_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "W_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "W_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RGB_Data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "w_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state1_reg' in module 'button'
+INFO: [Synth 8-802] inferred FSM for state register 'state2_reg' in module 'button'
+INFO: [Synth 8-5546] ROM "state1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "count1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count_led1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "down_key_press" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "up_key_press" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count_led2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "right_key_press" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "left_key_press" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                             0000 |                             0000
+                 iSTATE2 |                             0001 |                             0001
+                 iSTATE7 |                             0010 |                             0101
+                 iSTATE1 |                             0011 |                             0010
+                 iSTATE5 |                             0100 |                             1000
+                  iSTATE |                             0101 |                             0100
+                 iSTATE6 |                             0110 |                             0110
+                 iSTATE0 |                             0111 |                             0011
+                 iSTATE4 |                             1000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Stage_reg' using encoding 'sequential' in module 'shili_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     s02 |                             0001 |                             0000
+                     s12 |                             0010 |                             0001
+                     s32 |                             0100 |                             0100
+                     s22 |                             1000 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state2_reg' using encoding 'one-hot' in module 'button'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     s01 |                             0001 |                             0000
+                     s11 |                             0010 |                             0001
+                     s31 |                             0100 |                             0100
+                     s21 |                             1000 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state1_reg' using encoding 'one-hot' in module 'button'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 9     
+	   2 Input     14 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 2     
+	   5 Input     12 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 8     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 4     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               25 Bit    Registers := 6     
+	               24 Bit    Registers := 5     
+	               16 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               10 Bit    Registers := 6     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 4     
+	   2 Input     24 Bit        Muxes := 29    
+	   3 Input     24 Bit        Muxes := 5     
+	   4 Input     24 Bit        Muxes := 2     
+	   7 Input     24 Bit        Muxes := 2     
+	  16 Input     16 Bit        Muxes := 3     
+	  18 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   4 Input     10 Bit        Muxes := 2     
+	  16 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   9 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 14    
+	   4 Input      4 Bit        Muxes := 3     
+	   9 Input      4 Bit        Muxes := 4     
+	  60 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   9 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 51    
+	   6 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 18    
+	  15 Input      1 Bit        Muxes := 2     
+	  16 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Result_Data 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	  16 Input     16 Bit        Muxes := 3     
+	  18 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module random_number 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+Module shili_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	   9 Input      8 Bit        Muxes := 2     
+	   6 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 8     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 4     
+	  60 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 43    
+	   6 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 18    
+Module Driver_HDMI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 8     
+	   2 Input     14 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 2     
+	   5 Input     12 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 8     
+	   3 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 4     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               25 Bit    Registers := 5     
+	               24 Bit    Registers := 5     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 4     
+	   2 Input     24 Bit        Muxes := 29    
+	   3 Input     24 Bit        Muxes := 5     
+	   4 Input     24 Bit        Muxes := 2     
+	   7 Input     24 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	  15 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	  16 Input      1 Bit        Muxes := 1     
+Module HDMI_Demo 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module button 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element U2/disp_reg was removed.  [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/random_number.v:23]
+WARNING: [Synth 8-6014] Unused sequential element U2/Direct_Ran_reg was removed.  [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/random_number.v:29]
+WARNING: [Synth 8-6014] Unused sequential element U3/eye1_reg was removed.  [C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.srcs/sources_1/new/shili_control.v:85]
+INFO: [Synth 8-5545] ROM "U3/clk_10Hz_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U3/clk_10Hz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "U4/state2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U4/state1" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[23]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[22]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[21]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[20]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[19]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[18]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[17]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[16]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[15]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[14]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[13]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[12]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[11]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[10]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[9]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[8]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[7]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[6]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[5]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[4]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[3]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[2]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[1]
+WARNING: [Synth 8-3331] design Driver_HDMI has unconnected port RGB_In[0]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U3/flag_unknown_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U4/LR_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/vvvbegin_reg[9]' (FDE) to 'U7/Driver_HDMI0/length5_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/length_reg[9]' (FDE) to 'U7/Driver_HDMI0/length5_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/length5_reg[7]' (FDE) to 'U7/Driver_HDMI0/length5_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/length5_reg[8]' (FDE) to 'U7/Driver_HDMI0/length5_reg[9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U7/Driver_HDMI0 /\hhhbegin_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U7/Driver_HDMI0 /\length5_reg[9] )
+INFO: [Synth 8-3886] merging instance 'U0/Data_reg[7]' (FDE) to 'U0/Data_reg[5]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/Data_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/Data_reg[14] )
+INFO: [Synth 8-3886] merging instance 'U0/Data_reg[13]' (FDE) to 'U0/Data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U3/data_reg[3]' (FDE) to 'U3/data_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U3/data_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U4/Go_reg )
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[0]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[0]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[0]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[0]' (FD) to 'U7/Driver_HDMI0/n_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[0]' (FD) to 'U7/Driver_HDMI0/s_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[0]' (FD) to 'U7/Driver_HDMI0/w_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[0]' (FD) to 'U7/Driver_HDMI0/e_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[0]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[0]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[1]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[1]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[1]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[1]' (FD) to 'U7/Driver_HDMI0/n_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[1]' (FD) to 'U7/Driver_HDMI0/s_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[1]' (FD) to 'U7/Driver_HDMI0/w_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[1]' (FD) to 'U7/Driver_HDMI0/e_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[1]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[1]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[2]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[2]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[2]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[2]' (FD) to 'U7/Driver_HDMI0/n_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[2]' (FD) to 'U7/Driver_HDMI0/s_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[2]' (FD) to 'U7/Driver_HDMI0/w_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[2]' (FD) to 'U7/Driver_HDMI0/e_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[2]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[2]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[3]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[3]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[3]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[3]' (FD) to 'U7/Driver_HDMI0/n_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[3]' (FD) to 'U7/Driver_HDMI0/s_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[3]' (FD) to 'U7/Driver_HDMI0/w_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[3]' (FD) to 'U7/Driver_HDMI0/e_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[3]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[3]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[4]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[4]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[4]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[4]' (FD) to 'U7/Driver_HDMI0/n_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[4]' (FD) to 'U7/Driver_HDMI0/s_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[4]' (FD) to 'U7/Driver_HDMI0/w_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[4]' (FD) to 'U7/Driver_HDMI0/e_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[4]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[4]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[5]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[5]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[5]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[5]' (FD) to 'U7/Driver_HDMI0/n_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[5]' (FD) to 'U7/Driver_HDMI0/s_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[5]' (FD) to 'U7/Driver_HDMI0/w_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[5]' (FD) to 'U7/Driver_HDMI0/e_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[5]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[5]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[6]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[6]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[6]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[6]' (FD) to 'U7/Driver_HDMI0/n_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[6]' (FD) to 'U7/Driver_HDMI0/s_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[6]' (FD) to 'U7/Driver_HDMI0/w_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[6]' (FD) to 'U7/Driver_HDMI0/e_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[6]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[6]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[7]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[7]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[7]' (FDRE) to 'U7/Driver_HDMI0/R_data_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[7]' (FD) to 'U7/Driver_HDMI0/n_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[7]' (FD) to 'U7/Driver_HDMI0/s_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[7]' (FD) to 'U7/Driver_HDMI0/w_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[7]' (FD) to 'U7/Driver_HDMI0/e_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[7]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[7]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[8]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[8]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[8]' (FDSE) to 'U7/Driver_HDMI0/R_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[8]' (FD) to 'U7/Driver_HDMI0/n_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[8]' (FD) to 'U7/Driver_HDMI0/s_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[8]' (FD) to 'U7/Driver_HDMI0/w_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[8]' (FD) to 'U7/Driver_HDMI0/e_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[8]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[8]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[9]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[9]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[9]' (FDSE) to 'U7/Driver_HDMI0/R_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/n_data_reg[9]' (FD) to 'U7/Driver_HDMI0/n_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/s_data_reg[9]' (FD) to 'U7/Driver_HDMI0/s_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/w_data_reg[9]' (FD) to 'U7/Driver_HDMI0/w_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/e_data_reg[9]' (FD) to 'U7/Driver_HDMI0/e_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Kai_data_reg[9]' (FDS) to 'U7/Driver_HDMI0/Kai_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Shuang_data_reg[9]' (FDSE) to 'U7/Driver_HDMI0/Shuang_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/Dan_data_reg[10]' (FDS) to 'U7/Driver_HDMI0/Dan_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/W_data_reg[10]' (FDS) to 'U7/Driver_HDMI0/W_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U7/Driver_HDMI0/R_data_reg[10]' (FDSE) to 'U7/Driver_HDMI0/R_data_reg[15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U7/Driver_HDMI0 /\R_data_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/flag_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U3/data_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (U2/Done_Sig_reg) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U2/Done_Sig_reg__0) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (R_data_reg[24]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (R_data_reg[15]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (W_data_reg[24]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (Dan_data_reg[24]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (Shuang_data_reg[24]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (Kai_data_reg[24]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (hhhbegin_reg[9]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (length5_reg[9]) is unused and will be removed from module Driver_HDMI.
+WARNING: [Synth 8-3332] Sequential element (U4/LR_reg[1]) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U0/flag_reg[0]) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U0/Data_reg[14]) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U0/Data_reg[6]) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U3/start_Sig_reg) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U4/Go_reg) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U3/data_reg[6]) is unused and will be removed from module smg.
+WARNING: [Synth 8-3332] Sequential element (U3/flag_unknown_reg) is unused and will be removed from module smg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_10/clk_out1' to pin 'clk_10/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:48 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:48 . Memory (MB): peak = 790.898 ; gain = 466.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:49 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module clk_10 has unconnected pin reset
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|smg         | U3/disp_reg[0] | 24     | 1     | NO           | NO                 | YES               | 0      | 1       | 
++------------+----------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |clk_wiz_0      |         1|
+|2     |Clk_Division_0 |         1|
+|3     |rgb2dvi_0      |         1|
+|4     |kai_rom        |         1|
+|5     |si_rom         |         1|
+|6     |wan_rom        |         1|
+|7     |xiao_rom       |         1|
+|8     |ku_rom         |         1|
+|9     |r44            |         1|
+|10    |l44            |         1|
+|11    |r45            |         1|
+|12    |l45            |         1|
+|13    |r46            |         1|
+|14    |l46            |         1|
+|15    |r47            |         1|
+|16    |l47            |         1|
+|17    |r48            |         1|
+|18    |l48            |         1|
+|19    |r49            |         1|
+|20    |l49            |         1|
+|21    |r50            |         1|
+|22    |l50            |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |Clk_Division_0 |     1|
+|2     |clk_wiz_0      |     1|
+|3     |kai_rom        |     1|
+|4     |ku_rom         |     1|
+|5     |l44            |     1|
+|6     |l45            |     1|
+|7     |l46            |     1|
+|8     |l47            |     1|
+|9     |l48            |     1|
+|10    |l49            |     1|
+|11    |l50            |     1|
+|12    |r44            |     1|
+|13    |r45            |     1|
+|14    |r46            |     1|
+|15    |r47            |     1|
+|16    |r48            |     1|
+|17    |r49            |     1|
+|18    |r50            |     1|
+|19    |rgb2dvi_0      |     1|
+|20    |si_rom         |     1|
+|21    |wan_rom        |     1|
+|22    |xiao_rom       |     1|
+|23    |BUFG           |     2|
+|24    |CARRY4         |   130|
+|25    |LUT1           |    38|
+|26    |LUT2           |   239|
+|27    |LUT3           |    81|
+|28    |LUT4           |   228|
+|29    |LUT5           |    59|
+|30    |LUT6           |   114|
+|31    |SRLC32E        |     1|
+|32    |FDRE           |   297|
+|33    |IBUF           |     3|
++------+---------------+------+
+
+Report Instance Areas: 
++------+-----------------+--------------+------+
+|      |Instance         |Module        |Cells |
++------+-----------------+--------------+------+
+|1     |top              |              |  1224|
+|2     |  U0             |Result_Data   |    24|
+|3     |  U3             |shili_control |   273|
+|4     |  U4             |button        |   142|
+|5     |  U7             |HDMI_Demo     |   771|
+|6     |    Driver_HDMI0 |Driver_HDMI   |   759|
++------+-----------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 45 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 800.777 ; gain = 161.059
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 800.777 ; gain = 475.973
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 133 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+303 Infos, 86 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 800.777 ; gain = 475.973
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3/smg.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file smg_utilization_synth.rpt -pb smg_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 800.777 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  1 13:45:37 2020...

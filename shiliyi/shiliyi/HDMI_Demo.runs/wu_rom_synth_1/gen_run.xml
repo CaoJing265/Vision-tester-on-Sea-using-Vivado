@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="wu_rom_synth_1" LaunchPart="xc7s25ftgb196-1" LaunchTime="1572088982">
+  <File Type="PA-TCL" Name="wu_rom.tcl"/>
+  <File Type="REPORTS-TCL" Name="wu_rom_reports.tcl"/>
+  <File Type="RDS-RDS" Name="wu_rom.vds"/>
+  <File Type="RDS-UTIL" Name="wu_rom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="wu_rom_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="wu_rom.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/wu_rom">
+    <File Path="$PSRCDIR/sources_1/ip/wu_rom/wu_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="wu_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/wu_rom">
+    <File Path="$PSRCDIR/sources_1/ip/wu_rom/wu_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="wu_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Oct 26 19:22:19 2019
+# Process ID: 18072
+# Current directory: D:/SEAEnglish/example2/HDMI_Demo/HDMI_Demo/HDMI_Demo.runs/cuo_rom_synth_1
+# Command line: vivado.exe -log cuo_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cuo_rom.tcl
+# Log file: D:/SEAEnglish/example2/HDMI_Demo/HDMI_Demo/HDMI_Demo.runs/cuo_rom_synth_1/cuo_rom.vds
+# Journal file: D:/SEAEnglish/example2/HDMI_Demo/HDMI_Demo/HDMI_Demo.runs/cuo_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source cuo_rom.tcl -notrace

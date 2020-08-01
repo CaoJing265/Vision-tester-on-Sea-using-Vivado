@@ -1,0 +1,2 @@
+shi_rom.v,verilog,xil_defaultlib,../../../../HDMI_Demo.srcs/sources_1/ip/shi_rom_1/sim/shi_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

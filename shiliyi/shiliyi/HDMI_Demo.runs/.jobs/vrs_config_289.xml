@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="kai_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/kai_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="si_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/si_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dan_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/dan_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="yan_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/yan_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="wan_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wan_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cheng_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/cheng_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ku_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/ku_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xiao_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/xiao_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="clk_wiz_0_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="rgb2dvi_0_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/rgb2dvi_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r41_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r41_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zuo_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/zuo_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="you_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/you_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="wei_rom_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wei_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r40_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r40_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l40_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l40_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="r40_synth_1"/>
+	</Run>
+	<Run Id="r42_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r42_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r43_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r43_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l43_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l43_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="r43_synth_1"/>
+	</Run>
+	<Run Id="l44_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l44_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r44_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r44_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="l44_synth_1"/>
+	</Run>
+	<Run Id="l45_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l45_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l46_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l46_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r46_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r46_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="l46_synth_1"/>
+	</Run>
+	<Run Id="r47_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r47_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l47_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l47_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="r47_synth_1"/>
+	</Run>
+	<Run Id="r48_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r48_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l48_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l48_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="r48_synth_1"/>
+	</Run>
+	<Run Id="r49_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r49_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l49_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l49_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="r49_synth_1"/>
+	</Run>
+	<Run Id="r50_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r50_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l50_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l50_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="r50_synth_1"/>
+	</Run>
+	<Run Id="r51_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r51_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l52_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l52_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="l53_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/l53_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="r53_synth_1" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/r53_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="l53_synth_1"/>
+	</Run>
+	<Run Id="synth_3" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/synth_3" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="kai_rom_synth_1"/>
+		<Parent Id="si_rom_synth_1"/>
+		<Parent Id="dan_rom_synth_1"/>
+		<Parent Id="yan_rom_synth_1"/>
+		<Parent Id="wan_rom_synth_1"/>
+		<Parent Id="cheng_rom_synth_1"/>
+		<Parent Id="ku_rom_synth_1"/>
+		<Parent Id="xiao_rom_synth_1"/>
+		<Parent Id="clk_wiz_0_synth_1"/>
+		<Parent Id="rgb2dvi_0_synth_1"/>
+		<Parent Id="r41_synth_1"/>
+		<Parent Id="zuo_rom_synth_1"/>
+		<Parent Id="you_rom_synth_1"/>
+		<Parent Id="wei_rom_synth_1"/>
+		<Parent Id="r40_synth_1"/>
+		<Parent Id="l40_synth_1"/>
+		<Parent Id="r42_synth_1"/>
+		<Parent Id="r43_synth_1"/>
+		<Parent Id="l43_synth_1"/>
+		<Parent Id="l44_synth_1"/>
+		<Parent Id="r44_synth_1"/>
+		<Parent Id="l45_synth_1"/>
+		<Parent Id="l46_synth_1"/>
+		<Parent Id="r46_synth_1"/>
+		<Parent Id="r47_synth_1"/>
+		<Parent Id="l47_synth_1"/>
+		<Parent Id="r48_synth_1"/>
+		<Parent Id="l48_synth_1"/>
+		<Parent Id="r49_synth_1"/>
+		<Parent Id="l49_synth_1"/>
+		<Parent Id="r50_synth_1"/>
+		<Parent Id="l50_synth_1"/>
+		<Parent Id="r51_synth_1"/>
+		<Parent Id="l52_synth_1"/>
+		<Parent Id="l53_synth_1"/>
+		<Parent Id="r53_synth_1"/>
+	</Run>
+	<Run Id="impl_3" LaunchDir="C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/impl_3" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_3"/>
+		<Parent Id="kai_rom_synth_1"/>
+		<Parent Id="si_rom_synth_1"/>
+		<Parent Id="dan_rom_synth_1"/>
+		<Parent Id="yan_rom_synth_1"/>
+		<Parent Id="wan_rom_synth_1"/>
+		<Parent Id="cheng_rom_synth_1"/>
+		<Parent Id="ku_rom_synth_1"/>
+		<Parent Id="xiao_rom_synth_1"/>
+		<Parent Id="clk_wiz_0_synth_1"/>
+		<Parent Id="rgb2dvi_0_synth_1"/>
+		<Parent Id="r41_synth_1"/>
+		<Parent Id="zuo_rom_synth_1"/>
+		<Parent Id="you_rom_synth_1"/>
+		<Parent Id="wei_rom_synth_1"/>
+		<Parent Id="r40_synth_1"/>
+		<Parent Id="l40_synth_1"/>
+		<Parent Id="r42_synth_1"/>
+		<Parent Id="r43_synth_1"/>
+		<Parent Id="l43_synth_1"/>
+		<Parent Id="l44_synth_1"/>
+		<Parent Id="r44_synth_1"/>
+		<Parent Id="l45_synth_1"/>
+		<Parent Id="l46_synth_1"/>
+		<Parent Id="r46_synth_1"/>
+		<Parent Id="r47_synth_1"/>
+		<Parent Id="l47_synth_1"/>
+		<Parent Id="r48_synth_1"/>
+		<Parent Id="l48_synth_1"/>
+		<Parent Id="r49_synth_1"/>
+		<Parent Id="l49_synth_1"/>
+		<Parent Id="r50_synth_1"/>
+		<Parent Id="l50_synth_1"/>
+		<Parent Id="r51_synth_1"/>
+		<Parent Id="l52_synth_1"/>
+		<Parent Id="l53_synth_1"/>
+		<Parent Id="r53_synth_1"/>
+	</Run>
+</Runs>
+

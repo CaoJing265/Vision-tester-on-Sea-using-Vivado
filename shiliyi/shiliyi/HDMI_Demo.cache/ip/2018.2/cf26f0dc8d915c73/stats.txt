@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Sat Aug 01 00:41:58 UTC 2020
+VLNV: xilinx.com:user:Clk_Division:1.0
+SynthRuntime: 64

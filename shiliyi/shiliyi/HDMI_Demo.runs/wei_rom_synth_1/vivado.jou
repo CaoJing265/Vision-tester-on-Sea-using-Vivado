@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug  1 09:29:08 2020
+# Process ID: 14552
+# Current directory: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wei_rom_synth_1
+# Command line: vivado.exe -log wei_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wei_rom.tcl
+# Log file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wei_rom_synth_1/wei_rom.vds
+# Journal file: C:/Users/Qzzzz/Desktop/shiliyi/shiliyi/HDMI_Demo.runs/wei_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source wei_rom.tcl -notrace

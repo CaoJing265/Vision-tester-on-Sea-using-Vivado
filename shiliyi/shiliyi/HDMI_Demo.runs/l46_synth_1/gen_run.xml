@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="l46_synth_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1596245126">
+  <File Type="PA-TCL" Name="l46.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="l46_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="l46_reports.tcl"/>
+  <File Type="RDS-RDS" Name="l46.vds"/>
+  <File Type="RDS-UTIL" Name="l46_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="l46_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="l46.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="l46_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="l46_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/l46">
+    <File Path="$PSRCDIR/sources_1/ip/l46/l46.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="l46"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/l46">
+    <File Path="$PSRCDIR/sources_1/ip/l46/l46.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="l46"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../HDMI_Demo.srcs/sources_1/ip/r44/sim/r44.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

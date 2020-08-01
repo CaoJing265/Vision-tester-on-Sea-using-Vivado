@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 63c1df9081874c5899e841b1e2ce80d5 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot TestBench_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port clk_100MHz on this module [C:/Users/Opex9020/Desktop/Test/HDMI_Demo/HDMI_Demo/HDMI_Demo.srcs/sim_1/new/TestBench.v:27]
+ERROR: [VRFC 10-2063] Module <Picture_R_Rom> not found while processing module instance <R_ROM> [C:/Users/Opex9020/Desktop/Test/HDMI_Demo/HDMI_Demo/HDMI_Demo.srcs/sources_1/new/Video_Generator.v:67]
+ERROR: [VRFC 10-2063] Module <color_bar> not found while processing module instance <SS> [C:/Users/Opex9020/Desktop/Test/HDMI_Demo/HDMI_Demo/HDMI_Demo.srcs/sim_1/new/TestBench.v:33]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
